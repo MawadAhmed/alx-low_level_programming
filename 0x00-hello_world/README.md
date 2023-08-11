@@ -4,3 +4,5 @@ gcc -c $CFILE : script that compiles a C file but does not link and the extensio
 
 gcc -S $CFILE : script generates the assembly code of a C file and save it in an output file  and the extension will .o instead of .c. 
 
+gcc -c $CFILE -o cisfun: script that compiles a C file and creates an executable named cisfun.
+
