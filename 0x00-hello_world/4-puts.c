@@ -1,7 +1,9 @@
 #include <stdio>
 
-/*
- * first C program
+/**
+ * main- Entry point
+ *
+ * Return: Alwayd 0
  */
 int main(void)
 {
