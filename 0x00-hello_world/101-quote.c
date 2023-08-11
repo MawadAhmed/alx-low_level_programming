@@ -1,11 +1,13 @@
 #include <stdio>
-
+#include <unistd>
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 1 (unSuccess)
  */
 int main(void)
 {
-	putchar("and that piece of art is useful" - Dora Korpar, 2015-10-19");
+	char qou[] = ("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+	write(1, qou, 59);
+	return (1);
 }
