@@ -6,3 +6,5 @@ gcc -S $CFILE : script generates the assembly code of a C file and save it in an
 
 gcc -c $CFILE -o cisfun: script that compiles a C file and creates an executable named cisfun.
 
+puts in C program.
+
