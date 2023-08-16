@@ -4,13 +4,19 @@
 /**
  * main - Entry point
  *
+ * description : print _putchar using _putchar function.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+	char str[] = "_putchar";
+	int i;
+
+	for (i = 0 ; i < 8 ; i++)
+	{
+		_putchar(str[i]);
+		_putchar('\n');
+	}
 	return (0);
 }
