@@ -4,12 +4,12 @@
  *
  * @a : takes integer input for the function.
  * @b : takes integer input for the function.
- * Return: return 0 always (success).
+ * Return: return multip.
  */
 int mul(int a, int b)
 {
-	int sum;
+	int multip;
 
-	sum == a + b;
-	return (0);
+	multip == a * b;
+	return (multip);
 }
