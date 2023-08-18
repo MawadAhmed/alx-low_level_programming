@@ -2,7 +2,7 @@
 /**
  * print_most_numbers - function that that prints the numbers, from 0 to 9 and Do not print 2 and 4.
  *
- * Return: return always 0 (success).
+* Return: return always 0 (success).
  */
 void print_most_numbers(void)
 {
