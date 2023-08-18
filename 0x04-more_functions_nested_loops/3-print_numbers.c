@@ -2,7 +2,7 @@
 /**
  * print_numbers - function that prints the numbers, from 0 to 9.
  *
- * Return: return 0 always (success).
+ * Return: returns 0 always (success).
  */
 void print_numbers(void)
 {
@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (i = 0 ; i < 10 ; i++)
 	{
-		_putchar('i');
+		_putchar(i + 48);
 	}
 	_putchar('\n');
 }
