@@ -1,7 +1,7 @@
 #include "msin.h"
 
 /**
- * _puts _ function that prints a string, followed by a new line
+ * _puts - function that prints a string,followed by a new line, to stdout.
  *
  * @str : string parameter input.
  *
@@ -11,8 +11,10 @@
 void _puts(char *str)
 {
 	while (*str != '\0')
-		_putchar(*str + 0);
-                str++;
-        _putchar('\n');
+{
+	_putchar(*str + 0);
+	str++;
+}
+_putchar('\n');
 }
 
