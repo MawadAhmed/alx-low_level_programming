@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcat - function concatenates two string 
+ * _strcat - function concatenates two string
  *
  * @dest: pointer to destion input
- * @src: pointer to source input 
+ * @src: pointer to source input
  *
  * Return: returns a pointer to the resulting string dest
  */
@@ -14,7 +14,7 @@ char *_strcat(char *dest, char *src)
 
 	s1 = 0;
 
-	while(dest[s1])
+	while (dest[s1])
 		s1++;
 
 	for (s2 = 0 ; src[s2] ; src++)
