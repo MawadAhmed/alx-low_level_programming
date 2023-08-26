@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * *_strncpy - function that copies a string
+ * _strncpy - function that copies a string
  *
  * @dest: pointer to destion input
  * @src: pointer to source input
  * @n: integer input
+ *
  * Return: returns a pointer to the resulting string dest
  */
 
