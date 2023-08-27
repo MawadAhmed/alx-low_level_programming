@@ -22,7 +22,7 @@ int _atoi(char *s)
 		{
 			res = res * 10 + s[i] - '0';
 		}
-	else
+	else if
 		break;
 	return (res * sign);
 }
