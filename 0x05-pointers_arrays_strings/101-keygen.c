@@ -18,6 +18,6 @@ int main(void)
 		sum =  sum + p;
 		printf("%c",p);
 	}
-	printf("%d - %d",3456, sum)
+	printf("%d - %d",3456, sum);
 	return (0);
 }
