@@ -16,8 +16,8 @@ int main(void)
 	{
 		p = rand() % 120;
 		sum =  sum + p;
-		printf("%c",p);
+		putchar(p);
 	}
-	printf("%d - %d",3456, sum);
+	putchar(3456-sum);
 	return (0);
 }
