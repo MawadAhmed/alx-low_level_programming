@@ -9,7 +9,7 @@
 int _atoi(char *s)
 {
 	int sign = 1;
-	int res = 0;
+	unsigned int res = 0;
 	int i = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
@@ -22,7 +22,7 @@ int _atoi(char *s)
 		{
 			res = (res * 10) + (s[i] - '0');
 		}
-		else
+		else if (res > 0)
 			break;
 	}
 	return (res * sign);
